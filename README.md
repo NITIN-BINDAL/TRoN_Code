@@ -81,7 +81,7 @@ sudo apt install --reinstall libxcb-xinerama0
 
 ### Creating virtual environment and activating it
 ```bash
-~/.local/bin/virtualenv --python python36 env
+/usr/bin/virtualenv --python python36 env
 source env/bin/activate
 ```
 
