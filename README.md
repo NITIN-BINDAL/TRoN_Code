@@ -13,7 +13,7 @@ git clone git@github.com:NITIN-BINDAL/TRoN_Code.git
 Now change the current directory to project's directory by typing
 
 ```bash
-cd TRoN
+cd TRoN_Code
 ```
 Once the cloning and changing directory is complete, open two terminals namely `terminal 1` and `termianl 2`.
 
