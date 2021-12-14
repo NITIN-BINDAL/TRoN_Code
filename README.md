@@ -8,7 +8,7 @@ A project aimed at generating realistic human voices conditioned on age groups a
 Type the following command in order to clone the repository on you local machine. Make sure you have `git` installed before running the following command. To downlaod git head over to [git-scm.com](https://git-scm.com)
 
 ```bash
-git clone <repository-link>
+git clone https://github.com/NITIN-BINDAL/TRoN_Code.git
 ```
 Now change the current directory to project's directory by typing
 
