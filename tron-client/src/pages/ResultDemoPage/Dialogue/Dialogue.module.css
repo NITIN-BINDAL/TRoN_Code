@@ -1,0 +1,43 @@
+.container {
+  margin-bottom: 16px;
+  border: 1px solid var(--grey-two);
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: var(--primary-white);
+}
+
+.firstContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 8px;
+}
+
+.name {
+  margin: 0;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: var(--heading-font);
+  color: var(--primary-black);
+  margin-right: 24px;
+}
+
+.audioContainer {
+  width: 100%;
+}
+
+.captionContainer {
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 5px solid greed;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  color: var(--grey-three);
+}
+
+.spokenWord {
+  font-weight: bold;
+  color: var(--primary-red);
+}

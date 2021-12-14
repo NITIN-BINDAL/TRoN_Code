@@ -1,0 +1,63 @@
+@keyframes bounce {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  60% {
+    transform: translateY(-7px);
+  }
+  80% {
+    transform: translateY(-3px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
+}
+
+.button {
+  border-radius: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: var(--heading-font);
+  font-weight: 900;
+  border: 2px solid var(--primary-blue);
+  transition: var(--my-transition);
+}
+
+.primary {
+  background-color: var(--primary-blue);
+  color: var(--primary-bg);
+}
+
+.primary:hover {
+  background-color: var(--primary-green);
+  border-color: var(--primary-green);
+}
+
+.secondary {
+  color: var(--primary-blue);
+  background-color: var(--primary-white);
+}
+
+.secondary:hover {
+  background-color: var(--primary-blue);
+  color: var(--primary-bg);
+}
+
+.tertiary {
+  color: var(--primary-blue);
+  background-color: var(--primary-white);
+}
+
+.tertiary:hover {
+  color: var(--primary-bg);
+  background-color: var(--primary-red);
+  border-color: var(--primary-red);
+}

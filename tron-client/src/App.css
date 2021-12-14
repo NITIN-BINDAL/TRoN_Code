@@ -1,0 +1,48 @@
+.App {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100vh;
+  width: 100vw;
+}
+
+.contentContainer {
+  width: calc(100% - var(--navbar-thickness));
+  box-sizing: border-box;
+  padding: 24px;
+  background-color: var(--primary-bg);
+  position: relative;
+  overflow-y: scroll;
+}
+
+.creditsContainer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  padding: 24px;
+  background-color: var(--primary-bg);
+  border-top: 2px solid var(--grey-one);
+  font-family: var(--heading-font);
+  font-size: 16px;
+  font-weight: bold;
+  color: var(--grey-three);
+  letter-spacing: 3px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+@media only screen and (max-width: 1023px) {
+  .App {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .contentContainer {
+    width: 100%;
+    padding: 16px;
+  }
+}

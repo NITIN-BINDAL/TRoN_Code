@@ -1,0 +1,93 @@
+.container {
+  width: 100%;
+}
+
+.contentContainer {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  row-gap: 20px;
+  column-gap: 80px;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column;
+}
+.resultContainer {
+  display: flex;
+  flex-direction: column;
+  background-color: var(--primary-white);
+  padding: 1px 8px;
+  border-radius: 8px;
+}
+
+.noAudio {
+  text-align: center;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 900 !important;
+  color: var(--primary-black);
+  background-color: var(--primary-white);
+  padding: 20px 0;
+  border-radius: 8px;
+  margin-top: 36px;
+}
+
+.audioHeading {
+  font-family: var(--heading-font);
+  margin-bottom: 24px;
+  color: var(--primary-black);
+  font-size: 24px;
+  font-weight: 900 !important;
+  border-bottom: 1px solid var(--grey-one);
+}
+
+.captionContainer {
+  box-sizing: border-box;
+  width: 100%;
+  border-top: 5px solid greed;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  color: var(--grey-three);
+}
+
+.spokenWord {
+  font-weight: bold;
+  color: var(--primary-red);
+}
+
+/* Prompts */
+.promptsCtnr {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  padding-bottom: 12px;
+  margin-bottom: 12px;
+  border-bottom: 2px solid var(--grey-one);
+  border-radius: 0 0 2px 2px;
+}
+
+.testPromptHeading {
+  color: var(--primary-dark-blue);
+  font-family: var(--heading-font);
+  font-weight: 900;
+  font-size: 24px;
+}
+
+.promptCard {
+  background-color: var(--primary-dark-blue);
+  color: var(--primary-bg);
+  font-family: var(--heading-font);
+  font-weight: 900;
+  font-size: 20px;
+  transition: var(--my-transition);
+  padding: 7px 13px;
+  cursor: pointer;
+  border-radius: 7px;
+}
+
+.promptCard:hover {
+  background-color: var(--primary-green);
+}

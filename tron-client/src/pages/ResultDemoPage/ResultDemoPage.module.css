@@ -1,0 +1,26 @@
+.btnsContainer {
+  margin-bottom: 100vh;
+}
+
+.btns {
+  border: 3px solid var(--grey-one);
+  padding: 16px;
+  border-radius: 8px;
+  font-family: var(--heading-font);
+  font-size: 24px;
+  font-weight: 900;
+  color: var(--primary-black);
+}
+
+.btns:hover {
+  background-color: var(--primary-dark-blue);
+  color: var(--primary-white);
+  border: 3px solid var(--primary-dark-blue);
+}
+
+.demoSectionsCtnr {
+  display: flex;
+  flex-direction: column;
+  margin-top: 32px;
+  padding-bottom: 50vh;
+}

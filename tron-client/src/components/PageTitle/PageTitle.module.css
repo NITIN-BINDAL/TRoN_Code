@@ -1,0 +1,10 @@
+.title {
+  font-weight: bold;
+  font-size: 24px;
+  font-family: var(--heading-font);
+  width: 100%;
+  padding-bottom: 8px;
+  border-bottom: 2px solid var(--grey-one);
+  color: var(--grey-black);
+  margin-bottom: 50px;
+}
